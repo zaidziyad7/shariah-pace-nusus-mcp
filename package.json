@@ -1,0 +1,14 @@
+{
+  "name": "shariah-pace-nusus-remote",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Read-only Nusus Turath remote MCP gateway",
+  "scripts": {
+    "start": "node start.mjs"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "nusus-mcp": "*",
+    "supergateway": "^4.1.0"
+  }
+}

@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: shariah-pace-nusus
+    runtime: node
+    plan: free
+    buildCommand: npm install --no-audit --no-fund
+    startCommand: npm start
+    envVars:
+      - key: NODE_VERSION
+        value: 22
